@@ -16,6 +16,7 @@
         <th>Title</th>
         <th>Amount</th>
         <th>Price</th>
+        <th>Delivery</th>
     </tr>
     <#list products as product>
         <tr>
@@ -23,6 +24,7 @@
             <td>${product.title}</td>
             <td>${product.amount}</td>
             <td>${product.price}</td>
+            <td>${product.delivery}</td>
         </tr>
     </#list>
     </tbody>
