@@ -1,0 +1,38 @@
+### Получение товара по id
+
+GET /api/products/1
+Host: localhost
+
+### Получение всех товаров
+
+GET /api/products
+Host: localhost
+
+### Добавление товара
+
+POST /api/products
+Host: localhost
+Content-Type: application/json
+
+{
+  "title": "Atomic Bomb",
+  "amount": "2",
+  "price": "140000"
+}
+
+### Обновление товара
+
+PUT /api/products/1
+Host: localhost
+Content-Type: application/json
+
+{
+  "title": "Huggy Wuggy",
+  "amount": "2604",
+  "price": "399"
+}
+
+### Удаление товара
+
+DELETE /api/products/1
+Host: localhost
